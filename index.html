@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/сайт собственный/style.css">
+
+    <style>
+        body {
+            background-color: #FAF3E0;
+            font-family: "Montserrat", serif;
+            font-optical-sizing: auto;
+        }
+
+        .name_text{
+            font-weight: 500;
+            text-align: center;
+            color: #222222;
+        }
+
+        .cards{
+            display: flex;
+            align-items: center;
+            height: 75vh;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .card {
+            height: 200px;
+            width: 300px;
+            border:  solid, 1px;
+            border-radius: 10px; 
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease-in-out;
+            text-align: center;
+            padding: 10px;
+            flex: 0 1 300px;
+        }
+
+        .card:hover {
+                transform: scale(1.05); /* Увеличение на 5% */
+        }
+
+        .name-item__text{
+            font-weight: 700;
+        }
+
+        .price-item__text{
+            min-height: 200px;
+        }
+    </style>
+
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+
+        <div class="name">
+            <h1 class="name_text">Молочные коктейли</h1>
+        </div>
+        <div class="cards">
+
+        
+        <div class="card">
+            <div class="name-item">
+                <p class="name-item__text">
+                    Банановый коктейль
+                </p>
+            </div>
+            <div class="description-item">
+                <p class="description-item__text">
+                    Сладкий, освежающий, <br> мягкий со спелыми бананами.
+                </p>
+            </div>
+            <div class="price-item">
+                <p class="price-item__text">
+                    100 - 0,3 мл <br>
+                    150 - 0,4 мл <br>
+                    200 - 0,5 мл
+                </p>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <div class="name-item">
+                <p class="name-item__text">
+                    Ванильный коктейль
+                </p>
+            </div>
+            <div class="description-item">
+                <p class="description-item__text">
+                    Нежный, сливочный, <br> ароматный с натуральной ванилью.
+                </p>
+            </div>
+            <div class="price-item">
+                <p class="price-item__text">
+                    100 - 0,3 мл <br>
+                    150 - 0,4 мл <br>
+                    200 - 0,5 мл
+                </p>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <div class="name-item">
+                <p class="name-item__text">
+                    Шоколадный коктейль
+                </p>
+            </div>
+            <div class="description-item">
+                <p class="description-item__text">
+                    Густой, насыщенный, <br> бархатистый с глубоким вкусом какао.
+                </p>
+            </div>
+            <div class="price-item">
+                <p class="price-item__text">
+                    100 - 0,3 мл <br>
+                    150 - 0,4 мл <br>
+                    200 - 0,5 мл
+                </p>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
